@@ -2,7 +2,7 @@
  * File: size.c
  * Author: Samuel Tesfaye
  * Date: September 7, 2023
- * Description: This program prints the size of various types on the computer it is compiled and run on.
+ * Description: This program prints the size of various computer types
  */
 #include <stdio.h>
 /**
