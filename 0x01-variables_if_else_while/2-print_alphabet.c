@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
- * maiin - Entry point
- * Return : Always 0 (success)
+ * main - Entry point of the program
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-char c;
-c = 'a';
-while
-(c <= 'z') {
-	putchar(c);
-	c++;
-}
-putchar('\n');
+    char c;
+ /* Initialize character variable c with 'a' */
+    c = 'a';
+    /* Print the lowercase alphabets using a while loop */
+    while (c <= 'z') {
+        putchar(c);
+        c++;
+    }
+
+    /* Print a newline character */
+    putchar('\n');
 return (0);
 }
